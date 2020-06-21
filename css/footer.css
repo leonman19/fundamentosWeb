@@ -1,0 +1,47 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #2929299f ;
+    height: 10rem;
+}
+
+.AboutUs{
+    width: 20%;
+    font-size: 22px;
+    font-weight: bold; 
+}
+.AboutUs>li{
+    padding: 4px;
+}
+.AboutUs>li>a{ 
+    color: orange;
+}
+
+.AboutUs>li>a:hover{ 
+    color:orangered;
+}
+
+
+.Networks{
+    width: 30%;
+    font-size: 22px;
+    font-weight: bold; 
+}
+.Networks>li{
+    padding: 4px;
+}
+.Networks>li>a{
+    color: orange;
+}
+.Networks>li>a:hover{
+    color: orangered;
+}
+
+@media screen and (max-width: 850px){
+    .Networks,.AboutUs{
+        font-size: 14px;
+    }
+
+}

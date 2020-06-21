@@ -1,0 +1,80 @@
+.pprincipal{
+    min-height: 75vmin;
+    background: url(../img/header.jpg);
+    background-position: right center;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    transition: 2s ease-out;
+    
+}
+.inicio{
+    color:black;
+}
+main{
+    margin-top:100px;
+}
+
+.title{
+    margin-left: 5%;
+    font-style: oblique;
+    font-size: 20vw;
+    color:rgba(255, 68, 0, 0.616);
+    text-shadow: 3vw 15vw 25px rgba(255, 166, 0, 0.466);
+    transition: 1s ease all;
+}
+.description{
+    max-width: 60%;
+    margin-left:5%;
+    font-size:16px;
+    color: orange;
+    transition: 1.5s ease all;
+}
+
+.up{
+    position: fixed;
+    right: 20px;
+    bottom:20px;
+    z-index: 999;    
+}
+
+.b_up{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 18px;
+    padding: 1%;
+    min-width: fit-content;
+    background: orange;
+    border:orangered;
+    border-radius: 8%;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.b_up:hover{
+    border-color: orange;
+    background: orangered;
+    font-weight: bold;
+   
+}
+
+@media screen and (max-width: 850px){
+    .description{
+        margin-top: 15%;
+        background: rgba(0, 0, 0, 0.61);
+        max-width: 90%;
+        display: block;
+        
+        font-size: 14px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+    .B-Play, .B-Info{
+        font-size: 14px;
+    }
+    
+}

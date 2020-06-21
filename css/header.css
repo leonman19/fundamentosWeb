@@ -1,0 +1,120 @@
+
+.selector{
+    width: 95%;
+}
+.buscar{
+    padding-top: 10px;
+    float: left;
+    margin-left: 5%;
+}
+.hinput {
+    border: 1px;
+    border-color: snow;
+    background: silver;
+    width: 30vw;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.hbutton {
+    min-width: fit-content;
+    padding:0.5em;
+    
+    background: orange;
+    border:orangered;
+    border-radius: 5px;
+    border-width: 3px;
+}
+.hbutton:hover{
+    border-color: orange;
+    background: orangered;
+    font-weight: bold;
+}
+.hcontainer {
+
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+header {
+    padding: 20px 0;
+    position: absolute;
+    min-width: 100%;
+    z-index: 999;
+    top:0;
+    background: rgba(0, 0, 0, 0.692);
+}
+
+ul, ol{
+    list-style: none;
+    
+}
+.hnav li {
+    list-style: none;
+    text-align: center;
+    
+}
+
+.hnav {
+    display: flex;
+    float:right;
+    
+    
+}
+
+.hnav li a {
+    
+    color: orange;
+    text-decoration: none;
+    margin: 0 1vw 0 1vw;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+.hnav li a:hover {
+    background-color: #333333;
+    color: orangered;
+}
+
+.hnav li ul {
+    display: none;
+    position: absolute;
+}
+
+.hnav li:hover>ul {
+    display: block;
+}
+
+.logo{
+    width: 250px;
+}
+
+.lupa{
+    display:none;
+}
+
+@media screen and (max-width: 850px){
+    .logo{
+        margin-bottom: 5px;
+        width: 250px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .hcontainer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .lupa {
+        display: inline;
+    }
+    .buscar{
+        display:none;
+    }
+   
+}

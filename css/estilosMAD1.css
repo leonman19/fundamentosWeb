@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: auto;
+}
+
+body {
+    background-image:
+        repeating-radial-gradient(
+            rgba(255, 166, 0, 0.219),
+            rgba(255, 68, 0, 0.205)
+        ),
+        url(../img/b1.jpg);
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.email {
+    max-width: 250px;
+    font-size: 15px;
+    margin-bottom: .5rem;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lemail {
+    font-size: 18px;
+    margin-bottom: .5rem;
+    display: flex;
+    color: orange;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.password {
+    max-width: 250px;
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lpassword {
+    color: orange;
+    font-size: 18px;
+    margin-bottom: .5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.btn {
+    width: 8rem;
+    padding: 3px;
+    margin-bottom: .5rem;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    
+    background: orange;
+    border:orangered;
+    border-radius: 8%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: orangered;
+    font-weight: bold;
+}
+
+.olvido {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: rgba(159, 127, 247, 0.815);
+}
+
+.olvido:hover {
+    color: rgba(96, 99, 247, 0.856);
+}
+
+main img {
+    max-width: 100%;
+}
+
+.logo{
+    margin: 7.5%;
+
+}
+#map{
+    max-width: 600px;
+    height: 400px;
+    width: 100%;
+}
+.form-card{
+    margin-top: 10vh;
+    background: rgba(0, 0, 0, 0.418);
+    padding: 5%;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
